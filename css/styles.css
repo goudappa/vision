@@ -1,0 +1,457 @@
+/* custom css */
+@media screen and (min-width: 1025px){
+    .cust-navbar{
+        margin-left: 52% !important;
+      }
+      .cust-navbar li{
+          padding: 0 10px;
+      }
+}
+.cust-dropdown {
+    font-size: 13px;
+}
+.cust-head {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 13px; 
+}
+ul.social{
+    list-style-type: none;
+}
+ul.social li{
+    float: left;
+    padding: 0 15px;
+}
+
+.cust-firstsec{
+    padding: 5px 0;
+}
+.cust-social{
+    float: right;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3fc1c1; color: white;}
+
+.dropdown:hover{
+    background-color: #3fc1c1;
+}
+
+
+@media (min-width: 600px){
+    .navbar.scrolling-navbar.top-nav-collapse {
+        margin-top: 0px !important;
+    }
+}
+.navbar {
+    box-shadow: none !important;
+}
+.dropdown-content{
+    background-color: #3fc1c1;
+    min-width: 200px;
+    z-index: 5;
+}
+.cust-nlink {
+    display: inline;
+}
+.cust-nlink:hover{
+    background-color: transparent !important;
+}
+.cust-drpcont{
+    background-color: transparent !important;
+}
+.cust-drpcont a{
+    border-top: none !important;
+    padding: 6px 15px !important;
+}
+.cust-drpcont a:hover{
+    background-color: transparent !important;
+}
+
+.dropdown-content a{
+    color: #ffffff;
+    font-size: 12px;
+    border-top: 1px solid rosybrown;
+}
+
+/* border hover */
+
+.cust-li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  .cust-li:hover:after {
+    width: 100%;
+    border: 1px solid #3fc1c1;
+  }
+  .cust-li a{
+      color: #ffffff;
+  }
+  /* ./ border hover ends */
+  .dropdown-content a:hover{
+      background-color: black;
+      color: aqua;
+  }
+
+  @media screen and (max-width: 1024px){
+      .cust-firstsec{
+          display: none;
+      }
+  }
+  @media screen and (min-width: 768px){
+    .fixed-top{
+        margin-top: 0px;
+    }
+  }
+
+  .cust-appointment{
+      color: white;
+      padding: 16px;
+      background: #3fc1c1;
+  }
+  .cust-appointment:hover{
+      color: black;
+  }
+  @media screen and (min-width: 768px){
+    .our-loc a{
+        padding: 32px 64px;
+        border-radius: 20px;
+        box-shadow: inset 0 0 7px #3fc1c1;
+        -moz-box-shadow: inset 0 0 7px #3fc1c1;
+       -webkit-box-shadow: inset 0 0 7px #3fc1c1;
+        color: #000000;
+        
+      }
+      .our-loc a:hover{
+        box-shadow: inset 0 0 7px #000000;
+        -moz-box-shadow: inset 0 0 7px #000000;
+       -webkit-box-shadow: inset 0 0 7px #000000;
+       transition: box-shadow 0.5s ease-in-out;
+      }
+  }
+  .fcolor{
+    color: #3fc1c1;
+    font-size: 22px;
+  }
+  .cust-mar1{
+      margin: 7% 0;
+  }
+  .our-commitment{
+      margin-top: 9%;
+      text-align: center;
+  }
+  .our-commitment h1{
+      font-weight: bold;
+  }
+  .our-commitment p{
+      font-size: 30px;
+  }
+  .catarat{
+      text-align: center;
+  }
+  .catarat h5{
+      color: #3fc1c1;
+      letter-spacing: 1px;
+      font-size: 16px;
+  }
+  .cust-cmt{
+      margin-top: 5%;
+  }
+  .our-service2 img{
+      width: 100%;
+      position: relative;
+  }
+  .text-block{
+    position: absolute;
+    top: 50%;
+    color: white;
+    padding-left: 20px;
+  }
+  .catarat i{
+      font-size: 26px;
+      margin-bottom: 15px;
+  }
+  .cust-camps{
+      text-align: center;
+  }
+  .cust-camps h1{
+      font-size: 60px;
+      color: #ffffff;
+  }
+  .cust-camps h5{
+      color: #3fc1c1;
+      letter-spacing: 1px;
+  }
+  .cust-baimg2{
+      padding: 65px;
+  }
+  .fab a{
+      color: #000000;
+  }
+
+  .blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+/* our Doctors */
+    .who-works h4{
+        font-size: 19px;
+        color: #747474;
+    }
+    .who-works h1{
+        font-size: 45px;
+    }
+    .doctor-topmar{
+        margin-top: 5%;
+    }
+    .favlr{
+        font-size: 65px;
+        color: #000000;
+    }
+    .cust-ctrltop{
+        float: right;
+    }
+    .card-body h4{
+        color: #383838;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .card-body p{
+        color: #888888;
+    }
+    .cust-hr{
+        border-top: 2px solid #888888;
+        width: 15%;
+        margin-left: 0%;
+    }
+  
+    .social-doc{
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .social-doc li{
+        float: left;
+        margin-right: 20px;
+    }
+    .social-doc li a{
+        color: #888888;
+    }
+
+    /* image zoom */
+    
+    /* Image zoom on hover + Overlay colour */
+    .parent {
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+    .child {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+    
+    .parent:hover .child, .parent:focus .child {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    
+    .parent:hover .child:before, .parent:focus .child:before {
+        display: block;
+    }
+    
+    .parent:hover a, .parent:focus a {
+        display: block;
+    }
+    
+    .child:before {
+        content: "";
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(52,73,94,0.75);
+    }
+    
+    /* Media Queries */
+    @media screen and (max-width: 960px) {
+        .parent {width: 100%; margin: 20px 0px}
+            .wrapper {padding: 20px 20px;}
+    }
+    /* ./ image zoon */
+
+/* ./our doctors */
+
+/* footer styles */
+.call-question{
+    border: 1px solid rgba(255,255,255,0.35);
+    margin: 18% 0 4% 0;
+    border-bottom: 3px solid rgba(255,255,255,0.35);
+}
+.call-text{
+    text-align: justify;
+}
+.call-text h6{
+    color: rgba(255,255,255,0.35);
+   margin-top: 20px;
+}
+.cust-leftbrdr{
+    border-left: 1px solid rgba(255,255,255,0.35);
+}
+.cust-call{
+    font-size: 35px;
+    padding: 27px;
+    color: #3fc1c1;
+}
+.foot-logo p{
+    text-align: left;
+    color: rgba(255,255,255,1);
+}
+.foot-logo img{
+    width: 70%;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.spl-srv{
+    padding-left: 0;
+    list-style-type: none;
+    line-height: 2;
+}
+.special-services h5{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.connect-us{
+    list-style-type: none;
+    padding-left: 0;
+}
+.connect-us li{
+    float: left;
+    margin-right: 20px;
+}
+.page-footer{
+    background-image: url("img/scroll-top.jpg");
+}
+.footer-copyright2 {
+    overflow: hidden;
+    background-color: black;
+    color: rgba(255,255,255,.6);
+    padding: 10px 0;
+    font-size: 14px;
+}
+.page-footer2{
+    font-weight: 300;
+    font-size: 14px;
+}
+.no-padding{
+    padding: 0;
+}
+.cust-card{
+    box-shadow: none;
+}
+.who-works{
+    margin-bottom: 10%;
+}
+.cust-lm{
+    margin-left: 15px;
+}
+.cust-contrary{
+    text-align: center;
+}
+
+/* custom tabs */
+.cust-tabpane img{
+    width: 100%;
+}
+.cust-navlink{
+    color: #000000;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.38); 
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.38);
+}
+.navlink2{
+    margin: 15px 0;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: #3fc1c1;
+    color: white;
+    box-shadow: none;
+}
+.nav-pills .nav-link.active::after{
+    content: '';
+    left: -70px;
+    /* margin-left: 0; */
+    position: relative;
+    height: -20px;
+    top: -46px;
+    border-top: solid 20px transparent;
+    border-left: solid 21px transparent;
+    border-right: solid 30px #3fc1c1;
+    border-bottom: solid 20px transparent;
+   
+}
+.cust-navwidth{
+    float: right;
+    width: 93%;
+}
+.cust-contrary p{
+    font-size: 26px;
+}
+/* ./ custom tabs */
